@@ -1,0 +1,74 @@
+body {
+    width: 750px;
+    margin: 0;
+    border: 5px solid black;
+}
+
+header {
+    height: 250px;
+    background-color:#286983 ;
+    border: 5px solid black;
+}
+.encabezado {
+    flex-direction: row;
+    display: flex;
+    margin: 5px;
+}
+.banner {
+    width: 500px;
+    height: 230px;
+    background-color: #243FD2 ;
+    margin: 5px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+.logo {
+    width: 255px;
+    height: 230px;
+    background-color: #243FD2 ;
+    margin: 5px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+nav {
+    height: 50px;
+    background-color: #319724 ;
+    border: 5px solid black;
+}
+main {
+    height: 400px;
+    background-color: #978624 ;
+    border: 5px solid black;
+}
+.principal {
+    flex-direction: row;
+    display: flex;
+    margin: 5px;
+}
+
+article {
+    height: 380px;
+    width: 450px;
+    display: flex;
+    background-color: #E6E47A ;
+    margin: 5px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+aside {
+    height: 380px;
+    width: 290px;
+    display: flex;
+    background-color: #E6E47A ;
+    margin: 5px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+footer {
+    height: 50px;
+    background-color: #E5C616 ;
+    border: 5px solid black;
+}

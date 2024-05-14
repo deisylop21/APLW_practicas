@@ -1,0 +1,51 @@
+p {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+.text {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #A6A7BD;
+    border: 4px solid #A8A9BE ;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 4px solid #A8A9BE ;
+    width: 800px;
+    height: 1080px;
+}
+.datos {
+    margin: 10px;
+}
+main {
+    background-color: #C4C4D8;
+    height: 800px;
+    margin: 0;
+    border: 4px solid #A8A9BE ;
+    
+}
+#mapa {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 10px;
+}
+footer{
+    margin: 0;
+    background-color: #A6A7BD;
+    height: 150px;
+    border: 4px solid #A8A9BE ;
+    font-family: Arial, sans-serif;
+}
+.escribir {
+    flex-direction: row;
+    display: flex;
+    margin: 10px;
+}

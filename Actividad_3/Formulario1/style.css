@@ -1,0 +1,20 @@
+main {
+    border: 4px solid #F846ED   ;
+    width: 1000px;
+    height: 620px;
+    margin: 10px;
+    background-color: #FF82F7 ;
+}
+.text {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    
+}
+.text1 {
+    flex-direction: row;
+    display: flex;
+    margin: 10px;
+}
+.text1 p {
+    margin-right: 10px; /* Añade margen a la derecha del párrafo */
+}

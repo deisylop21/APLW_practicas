@@ -1,0 +1,194 @@
+body {
+    background-color: #3D41AF;
+    width: 1300px;
+}
+header {
+    border: 5px solid #888BE1;
+    width: 1295px;
+    margin: 10px;
+    background-color: #5257E6;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+p {
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #5257E6;
+    width: 1295px;
+    height: 350px;
+    border: 5px solid #888BE1;
+    flex-direction: row;
+    display: flex;
+    margin: 10px;
+
+}
+.personal {
+    display: flex;
+    margin: 8px;
+    flex-direction: column; /* Organiza los elementos verticalmente */
+}
+.datos_personales {
+    color: red;
+    width: 1035px;
+    height: 50px;
+    border: 4px solid #7477D2;
+    background-color: #7477D2 ;
+    margin: 5px;
+    display: flex;
+    
+}
+.datos {
+    width: 1035px;
+    height: 245px;
+    border: 4px solid #9DA0FB ;
+    background-color: #9DA0FB ;
+    margin: 5px;
+    
+}
+.foto {
+    
+    display: flex;
+    height: 310px;
+    display: flex;
+    margin: 8px;
+    
+}
+main {
+    background-color: #5257E6;
+    width: 1295px;
+    height: 895px;
+    border: 5px solid #888BE1;
+    display: flex;
+    margin: 10px;
+}
+.experiencia_laboral {
+    color: red;
+    background-color: #7477D2 ;
+    margin: 5px;
+    border: 4px solid #7477D2;
+    width: 1265px;
+    display: flex;
+    height: 50px;
+}
+.experiencia {
+    width: 1265px;
+    height: 50px;
+    border: 4px solid #9DA0FB ;
+    background-color: #9DA0FB ;
+    margin: 5px;
+    display: flex;
+}
+.personal2{
+    display: flex;
+    margin: 8px;
+    flex-direction: column; /* Organiza los elementos verticalmente */
+}
+.educacion-formacion {
+    color: red;
+    background-color: #7477D2 ;
+    margin: 5px;
+    border: 4px solid #7477D2;
+    width: 1265px;
+    display: flex;
+    height: 50px;
+}
+.educacion {
+    width: 1265px;
+    height: 80px;
+    border: 4px solid #9DA0FB ;
+    background-color: #9DA0FB ;
+    margin: 5px;
+}
+.capacidades-aptitudes {
+    color: #3D3F86 ;
+    background-color: #6E6E7E  ;
+    margin: 5px;
+    border: 4px solid #6E6E7E ;
+    width: 1265px;
+    display: flex;
+    height: 50px;
+}
+.lengua-materna {
+    color: red;
+    background-color: #7477D2 ;
+    margin: 5px;
+    border: 4px solid #7477D2;
+    width: 1265px;
+    display: flex;
+    height: 50px;
+}
+.lengua {
+    width: 1265px;
+    height: 50px;
+    border: 4px solid #9DA0FB ;
+    background-color: #9DA0FB ;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+}
+.otros-idiomas {
+    color: red;
+    background-color: #7477D2 ;
+    margin: 5px;
+    border: 4px solid #7477D2;
+    width: 1265px;
+    display: flex;
+    height: 50px;
+}
+.idiomas {
+    width: 1265px;
+    height: 50px;
+    border: 4px solid #9DA0FB ;
+    background-color: #9DA0FB ;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+}
+.capacidades-tecnicas {
+    color: red;
+    background-color: #7477D2 ;
+    margin: 5px;
+    border: 4px solid #7477D2;
+    width: 1265px;
+    display: flex;
+    height: 50px;
+}
+.tecnicas {
+    width: 1265px;
+    height: 150px;
+    border: 4px solid #9DA0FB ;
+    background-color: #9DA0FB ;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+}
+footer {
+    background-color: #5257E6;
+    width: 1295px;
+    height: 200px;
+    border: 5px solid #888BE1;
+    display: flex;
+    margin: 10px;
+}
+.personal3{
+    display: flex;
+    margin: 8px;
+    flex-direction: column; /* Organiza los elementos verticalmente */
+}
+.informacion-adicional {
+    color: red;
+    background-color: #7477D2 ;
+    margin: 5px;
+    border: 4px solid #7477D2;
+    width: 1265px;
+    display: flex;
+    height: 50px;
+}
+.adicional {
+    width: 1265px;
+    height: 150px;
+    border: 4px solid #9DA0FB ;
+    background-color: #9DA0FB ;
+    margin: 5px;
+    font-family: Arial, sans-serif;
+}

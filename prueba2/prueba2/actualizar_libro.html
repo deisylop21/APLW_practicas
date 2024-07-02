@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actualizar Libro</title>
+</head>
+<body>
+    <h2>Actualizar Libro</h2>
+    <form action="actualizar_libro.php" method="post">
+        <label for="id_libro">ID del Libro:</label><br>
+        <input type="number" id="id_libro" name="id_libro" required><br><br>
+        
+        <label for="titulo">Nuevo Título:</label><br>
+        <input type="text" id="titulo" name="titulo" required><br><br>
+        
+        <label for="fecha_publicacion">Nueva Fecha de Publicación:</label><br>
+        <input type="date" id="fecha_publicacion" name="fecha_publicacion" required><br><br>
+        
+        <label for="id_autor">Nuevo Autor (ID):</label><br>
+        <input type="number" id="id_autor" name="id_autor" required><br><br>
+        
+        <label for="precio">Nuevo Precio:</label><br>
+        <input type="text" id="precio" name="precio" required><br><br>
+        
+        <input type="submit" value="Actualizar Libro">
+    </form>
+</body>
+</html>

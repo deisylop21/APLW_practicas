@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibloteca</title>
+    <style>
+        body {
+            background-image: url('ruta/a/tu/imagen-de-fondo.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: white;
+            padding-top: 50px; /* Espacio superior para el h1 */
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .container button {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #0e427e;
+            color: white;
+            border: none;
+            cursor: pointer;
+
+            border-radius: 5px;
+        }
+        .container button:hover {
+            background-color: #4583a0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Opciones</h1>
+    <div class="container">
+        <button onclick="window.location.href='añadir_autor.html'">Añadir Autor</button>
+        <button onclick="window.location.href='añadir_libro.html'">Añadir Libro</button>
+        
+    </div>
+</body>
+</html>

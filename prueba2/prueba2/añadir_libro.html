@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Añadir Libro</title>
+</head>
+<body>
+    <h2>Añadir Libro</h2>
+    <form action="añadir_libro.php" method="post">
+        <label for="titulo">Título:</label><br>
+        <input type="text" id="titulo" name="titulo" required><br><br>
+        
+        <label for="fecha_publicacion">Fecha de Publicación:</label><br>
+        <input type="date" id="fecha_publicacion" name="fecha_publicacion" required><br><br>
+        
+        <label for="id_autor">Autor (ID):</label><br>
+        <input type="number" id="id_autor" name="id_autor" required><br><br>
+        
+        <label for="precio">Precio:</label><br>
+        <input type="text" id="precio" name="precio" required><br><br>
+        
+        <input type="submit" value="Añadir Libro">
+    </form>
+</body>
+</html>
